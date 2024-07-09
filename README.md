@@ -13,8 +13,8 @@ El primer requerimiento incluye:
 
 ### Vista previa
 
-<img src="asstes/img/img1.png" alt="Descripción de la imagen" width="500"/>
-<img src="asstes/img/img2.png" alt="Descripción de la imagen" width="500"/>
+<img src="assets/img/img1.png" alt="Descripción de la imagen" width="500"/>
+<img src="assets/img/img2.png" alt="Descripción de la imagen" width="500"/>
 
 ## Instalación
 
@@ -34,8 +34,3 @@ No se requiere ninguna configuración adicional. Simplemente abre el archivo HTM
 
 Las contribuciones son bienvenidas. Por favor, abre un issue para discutir los cambios que te gustaría hacer.
 
-## Licencia
-
-[Incluye aquí la licencia que desees usar para tu proyecto, por ejemplo:]
-
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
