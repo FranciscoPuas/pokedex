@@ -13,7 +13,9 @@ El primer requerimiento incluye:
 
 ### Vista previa
 
-<img src="asstes/img/Captura de pantalla 2024-07-09 124137.png" alt="Descripción de la imagen" width="500"/>
+<img src="asstes/img/img1.png" alt="Descripción de la imagen" width="500"/>
+<img src="asstes/img/img2.png" alt="Descripción de la imagen" width="500"/>
+
 ## Instalación
 
 1. Clona este repositorio:
