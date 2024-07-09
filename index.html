@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokédex Nacional</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Pokédex Nacional</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#" data-region="kanto">Kanto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-region="johto">Johto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-region="hoenn">Hoenn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-region="sinnoh">Sinnoh</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-region="unova">Unova</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-region="kalos">Kalos</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h1 class="text-center mt-4">Pokédex Nacional</h1>
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          id="search-input"
+          class="form-control"
+          placeholder="Buscar Pokémon por nombre o ID"
+        />
+        <div class="input-group-append">
+          <button class="btn btn-primary" type="button" id="search-button">
+            Buscar
+          </button>
+        </div>
+      </div>
+      <div class="row" id="pokemon-container">
+        <!-- Los Pokémon se cargarán aquí -->
+      </div>
+    </div>
+
+    <!-- Modal para detalles del Pokémon -->
+    <div
+      class="modal fade"
+      id="pokemonModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="pokemonModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="pokemonModalLabel">
+              Detalles del Pokémon
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" id="pokemon-details">
+            <!-- Los detalles del Pokémon se cargarán aquí -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
