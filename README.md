@@ -1,6 +1,6 @@
 # Pokédex Nacional
 
-![Pokédex Nacional](./assets/images/pokedex.jpg)
+![Pokédex Nacional](./assets/img/pokedex.jpg)
 
 ## Descripción
 
