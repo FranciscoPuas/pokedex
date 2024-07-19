@@ -1,6 +1,6 @@
 # Pokédex Nacional
 
-![Pokédex Nacional](./assets/img/pokedex.jpg)
+<img src="./assets/img/pokedex.jpg" alt="Pokédex Nacional" width="50" height="50">
 
 ## Descripción
 
